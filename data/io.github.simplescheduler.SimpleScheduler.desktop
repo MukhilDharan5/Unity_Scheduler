@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=SimpleScheduler
+GenericName=Script Scheduler
+Comment=A native home for your Linux scripts and routines
+Exec=simple-scheduler
+Icon=io.github.simplescheduler.SimpleScheduler
+Terminal=false
+Categories=Utility;GTK;
+Keywords=script;schedule;automation;cron;systemd;
+StartupNotify=true
+StartupWMClass=io.github.simplescheduler.SimpleScheduler

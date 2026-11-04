@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+from pathlib import Path
+import sys
+
+root = Path(__file__).resolve().parent
+installed = root.parent / "share/simplescheduler"
+sys.path.insert(0, str(installed if installed.is_dir() else root))
+
+try:
+    from simplescheduler.app import main
+except (ImportError, ValueError) as error:
+    print(f"SimpleScheduler needs Python GObject, GTK 4, libadwaita 1.5+, and GtkSourceView 5.\n{error}", file=sys.stderr)
+    raise SystemExit(1)
+
+raise SystemExit(main())

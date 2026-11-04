@@ -1,0 +1,57 @@
+/* Adwaita supplies the window, controls, colors and dark-mode behavior. */
+.navigation-sidebar { padding: 6px 10px; }
+.navigation-sidebar row { border-radius: 8px; margin-bottom: 3px; min-height: 42px; }
+.sidebar-brand { margin: 14px 18px 26px; }
+.sidebar-brand .title-3 { font-weight: 800; }
+.sidebar-section { margin: 8px 14px; font-size: 10px; font-weight: 700; letter-spacing: 1px; opacity: .5; }
+.sidebar-count { font-size: 11px; font-weight: 600; opacity: .55; }
+.sidebar-footer { padding: 16px; }
+.sidebar-footer label { font-size: 11px; }
+.page-content { padding: 30px 36px 32px; }
+.page-heading { font-size: 30px; font-weight: 800; letter-spacing: -1px; }
+.page-description { opacity: .6; margin-top: 5px; }
+.summary-card { border-radius: 12px; padding: 16px 18px; background: alpha(currentColor, .035); }
+.summary-number { font-size: 26px; font-weight: 800; }
+.summary-label { font-size: 12px; opacity: .6; }
+.summary-icon { color: @accent_color; }
+.script-list row { padding: 12px 16px; min-height: 52px; }
+.script-icon { min-width: 44px; min-height: 44px; border-radius: 12px; }
+.script-icon image { -gtk-icon-size: 23px; }
+.code-glyph { font-family: monospace; font-size: 18px; font-weight: 800; }
+.detail-icon .code-glyph { font-size: 28px; }
+.language-shell { background: alpha(#2ec27e, .13); color: #218559; }
+.language-python { background: alpha(#3584e4, .13); color: #2870c0; }
+.language-javascript { background: alpha(#e5a50a, .14); color: #a16a00; }
+.language-ruby { background: alpha(#e66100, .13); color: #c64600; }
+.language-perl, .language-other { background: alpha(#9141ac, .13); color: #9141ac; }
+.dark .language-shell { color: #8ff0a4; }
+.dark .language-python { color: #99c1f1; }
+.dark .language-javascript { color: #f9f06b; }
+.dark .language-ruby { color: #ffbe6f; }
+.dark .language-perl, .dark .language-other { color: #dc8add; }
+.script-title { font-weight: 650; }
+.favorite-star { color: @accent_color; }
+.quick-card { padding: 18px; border-radius: 12px; min-width: 200px; }
+.script-path { font-size: 11px; opacity: .55; }
+.group-badge { font-size: 10px; font-weight: 600; padding: 3px 8px; border-radius: 8px; background: alpha(currentColor, .06); opacity: .7; }
+.schedule-label { font-size: 11px; opacity: .65; }
+.status-pill { font-size: 10px; font-weight: 600; padding: 4px 9px; border-radius: 20px; background: alpha(currentColor, .06); }
+.status-success { color: #218559; background: alpha(#2ec27e, .12); }
+.dark .status-success { color: #8ff0a4; }
+.status-failed { color: @error_color; background: alpha(#e01b24, .1); }
+.status-running { color: @accent_color; background: alpha(#3584e4, .12); }
+.section-heading { font-size: 13px; font-weight: 700; }
+.section-description { font-size: 11px; opacity: .5; }
+.discovery-footer { font-size: 11px; opacity: .55; padding: 14px 2px; }
+.discovery-dot { color: #2ec27e; }
+.detail-hero { margin: 16px 0 22px; }
+.detail-name { font-size: 26px; font-weight: 800; }
+.detail-icon { min-width: 72px; min-height: 72px; border-radius: 20px; }
+.detail-icon image { -gtk-icon-size: 36px; }
+.editor-frame { border: 1px solid alpha(currentColor, .15); border-radius: 10px; }
+.editor-frame textview { padding: 12px; font-family: monospace; font-size: 13px; }
+.editor-toolbar { padding: 8px 12px; background: alpha(currentColor, .035); border-bottom: 1px solid alpha(currentColor, .15); }
+.editor-toolbar label { font-size: 11px; opacity: .6; }
+.output-view { font-family: monospace; font-size: 12px; padding: 18px; }
+.empty-hint { font-size: 12px; opacity: .6; }
+.welcome-icon { color: @accent_color; }
