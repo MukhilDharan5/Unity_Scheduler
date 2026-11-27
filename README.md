@@ -149,3 +149,7 @@ GSETTINGS_BACKEND=memory python3 tools/ui_smoke.py
 Backend tests cover discovery, missing files, visibility, groups, favorites, pins, migration, filename safety, schedule generation and failure recovery, execution and cancellation, multi-file import, search/sorting, rename consistency, and undo removal. The GTK walkthrough also exercises the mouse activation signal, direct edit controls, editor save/find, external edits, unsaved schedule guards, duplication, file drops, filters, context actions, output export, themes, and narrower windows. Screenshots are captured from the application’s own GTK renderer, using temporary example data. Set `SIMPLESCHEDULER_SKIP_SCREENSHOTS=1` to run interaction checks independently of desktop screenshot timing.
 
 Code is licensed under GPL-3.0-or-later. AppStream metadata is CC0-1.0.
+
+## Relationship to other Unity projects
+
+SimpleScheduler is a standalone Linux script library and scheduler. [Unity Automation Engine](https://github.com/MukhilDharan5/Unity_Automation_Engine) incorporates a Scripts workspace based on this functionality alongside device routines. The library can discover scripts associated with [Singularity Control Center](https://github.com/MukhilDharan5/Unity_Power_Controls). See the [Unity hub](https://github.com/MukhilDharan5/Unity) for other Unity projects.
